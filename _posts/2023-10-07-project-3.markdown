@@ -1,0 +1,12 @@
+
+---
+layout: default
+modal-id: 3
+img: personal/images/5jpa/1_icon.png
+alt: image-alt
+category: Power BI, MS SQL 
+---
+<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+  <iframe width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiNGIzYWQ4ZDMtMjMwMy00M2RmLTgxNmQtNmE2ZTgxYzkwZDAyIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9" frameborder="0" allowfullscreen="true" style="position:absolute; top:0; left: 0">
+  </iframe>
+</div>
