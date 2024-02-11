@@ -1,0 +1,87 @@
+<div><p>We are going to do a hands-on project of Customer Churn Analysis for an eCommerce company in the Telecom industry. This project is built as part of the learning from <a href="https://app.datacamp.com/learn">Datacamp</a> using available resources and datasets on the website. Before we proceed any further, let's first understand what a Customer Churn Rate means. <a href="#:~:text=The%20churn%20rate%2C%20also%20known,within%20a%20given%20time%20period.">Investopedia</a> defines it as <em>"</em><em>the rate of attrition at which customers stop doing business with an entity. It is most commonly expressed as the percentage of service subscribers who discontinue their&nbsp;</em><a href="https://www.investopedia.com/ask/answers/042715/how-do-subscription-business-models-work.asp"><em>subscriptions</em></a><em>&nbsp;within a given time period</em><em>"</em>.&nbsp;It is an important metric that provides an insight into the company in terms of how competitive they are in the market; possibly why there is an attrition rate in customer base; and by how much. </p>
+
+<p>Simply put:</p>
+
+<p>For a specific time range, </p>
+
+<p> Churn Rate = Number of customer who stopped doing business with the entity / Total number of customers</p>
+
+<p>Data:</p>
+
+<p>The customer dataset consisted of following fields:</p>
+
+<table><colgroup><col><col><col><col><col><col></colgroup><tbody><tr><td><p>1</p></td><td><p>Customer ID</p></td><td><p>11</p></td><td><p>Customer Service Calls</p></td><td><p>21</p></td><td><p>Group</p></td></tr>
+<tr><td><p>2</p></td><td><p>Churn Label</p></td><td><p>12</p></td><td><p>Avg Monthly GB Download</p></td><td><p>22</p></td><td><p>Number of Customers in Group</p></td></tr>
+<tr><td><p>3</p></td><td><p>Account Length (in months)</p></td><td><p>13</p></td><td><p>Unlimited Data Plan</p></td><td><p>23</p></td><td><p>Device Protection &amp; Online Backup</p></td></tr>
+<tr><td><p>4</p></td><td><p>Local Calls</p></td><td><p>14</p></td><td><p>Extra Data Charges</p></td><td><p>24</p></td><td><p>Contract Type</p></td></tr>
+<tr><td><p>5</p></td><td><p>Local Mins</p></td><td><p>15</p></td><td><p>State</p></td><td><p>25</p></td><td><p>Payment Method</p></td></tr>
+<tr><td><p>6</p></td><td><p>Intl Calls</p></td><td><p>16</p></td><td><p>Phone Number</p></td><td><p>26</p></td><td><p>Monthly Charge</p></td></tr>
+<tr><td><p>7</p></td><td><p>Intl Mins</p></td><td><p>17</p></td><td><p>Gender</p></td><td><p>27</p></td><td><p>Total Charges</p></td></tr>
+<tr><td><p>8</p></td><td><p>Intl Active</p></td><td><p>18</p></td><td><p>Age</p></td><td><p>28</p></td><td><p>Churn Category</p></td></tr>
+<tr><td><p>9</p></td><td><p>Intl Plan</p></td><td><p>19</p></td><td><p>Under 30</p></td><td><p>29</p></td><td><p>Churn Reason</p></td></tr>
+<tr><td><p>10</p></td><td><p>Extra International Charges</p></td><td><p>20</p></td><td><p>Senior</p></td><td></td><td></td></tr>
+</tbody></table>
+
+<p>A detailed meaning of each field could be found at <a href="https://assets.datacamp.com/production/repositories/6386/datasets/0d84b751e28911f4a2c51b1a38c0100a55d8037e/Metadata%20Sheet%20-%20Customer%20Churn.pdf">here</a>.</p>
+
+<p>The data that we had needed tabular formatting and then we checked for duplicate entries in the dataset. </p>
+
+<p>Calculating churn:</p>
+
+<p>We are going to use pivot tables for exploratory analysis. In order to calculate the churn rate, we created a new column (called ‘churned') with binomial representative of Yes/No values in the Churn Label field. Then created a pivot table that provides total customers with the company and total customers considered as churned (sum of newly created label ‘churned'). We also went ahead and found the churn rate as per the formula we saw above:   total customers considered as churned / total customers with the company and converted the result in % format. </p>
+
+<div><img src="#"></div>
+
+<p>Once we have a concrete value of what out churn rate is, let's investigate the reason for this churn.</p>
+
+<p>Investigating Churn Reasons:</p>
+
+<p>The dataset provides two fields called "churn reasons" and "churn category" which tells why the customer left business with the entity and category doing in which this reason is classified. We start by identifying the distribution of across various reasons and identify the top contributors.</p>
+
+<div><img src="#"></div>
+
+<p>In the next step, we move to identify the top categories which have most outliers of the data. What I mean by that is seeing the distribution of data across categories and reasons within those categories. This provides us with insight to identify areas where the company needs to dig deeper to analyze further. </p>
+
+<div><img src="#"></div>
+
+<div><img src="#"></div>
+
+<div><img src="#"></div>
+
+<p>Doing so, we identified that the highest churn is within Competitors category, meaning more and more customers are opting not to do business with this company mainly because of reasons relating to the competitors in the market. Expanding this category, we found that since competitors are offering better products (devices) or are making a better offer (in terms of service of product) in comparison to our company. </p>
+
+<p>The data exploration is still not over, there still a lot of factors that we haven't looked at. Although we established the category and reason why most of the customers are churning, we could potential benefit by exploring further into the age, gender, subscription type etc that would provide us with a better understanding of the problem. Let's dive in.</p>
+
+<p>Analyzing the demographics:</p>
+
+<p>There are 3 categories of customers present in the dataset, people under 30, seniors and others. On an analysis of churning rate across these categories, we found that "seniors" had the highest rate of churning. In order to understand this fact better, we divided the entire dataset based on the age group of bucket size 10. Upon exploring the churn rate, we found that while seniors in the age group 79-88 has the highest churn rate but lowest count, while people in the age group 39-48 were the highest contributor in terms of number across any category.</p>
+
+<div><img src="#"></div>
+
+<div><img src="#"></div>
+
+<p>Analyzing plan subscription:</p>
+
+<p>Given that it's a telecom company and earlier findings that there is the second highest churn rate in terms of better services offered by the competitors, we thought to look closely into the churning across subscription plans and the level of usage made by the customers.</p>
+
+<div><img src="#"></div>
+
+<p>We found that the unlimited plan has the highest churn rate in an initial analysis. We grouped the Avg Monthly GB Download into three categories: Less than 5 GB, Between 5 &amp; 10 GB, 10 or more GB. Doing so revealed that people with Unlimited Plan and having average data consumption less than 5GB has the highest churn rate.</p>
+
+<p>In further analysis, we try to understand the pattern of churning state wise and whether the customer in the state has international plan or not. The we try to add heatmap to understand where more attention is needed. California (CA) has the highest churn rate, irrespective of whether the customers has an international plan or not.</p>
+
+<div><img src="#"></div>
+
+<p>Analyzing account relationship parameters:</p>
+
+<p>Looking at the length of the account, relationship of the customers with the company and trend of churning across the length distribution. It was observed that as the relationship years of the account increases, the churning rate decreases. To understand it further we factor in the type of relationship(or contract) the customers have with the company and what kind of churning effect does that distribution show.</p>
+
+<div><img src="#"></div>
+
+<div><img src="#"></div>
+
+<p>Combined with the heat map, our observation is strengthened further as we identify from heatmap that there is more churning in accounts with lesser length of relationship and in fact month to month type of contract having length between 1-12 years has the highest churning ratio.</p>
+
+<div><img src="#"></div>
+
+</div>
