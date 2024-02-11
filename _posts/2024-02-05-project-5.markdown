@@ -20,8 +20,12 @@ category: Power BI, MS Excel
 </style>
 
 <div>
-   <p>The project “Job Market Analysis” investigates market trends in demand for jobs in a specific domain. The project follows the Data Analytics pipeline; outlined as part of the learning from <em><a href="https://app.datacamp.com/learn">Datacamp</a></em>. The project uses an Excel Dataset with a single data table. The raw dataset consists of >25000 instances of job-postings from the years 2017 to 2021. Each instance consists of 18 attributes and represents a unique ad for the job.</p>
+	<p>The project “Job Market Analysis” investigates market trends in demand for jobs in a specific domain. The project follows the Data Analytics pipeline; outlined as part of the learning from <em><a href="https://app.datacamp.com/learn">Datacamp</a></em>. The project uses an Excel Dataset with a single data table. The raw dataset consists of >25000 instances of job postings from the years 2017 to 2021. Each instance consists of 18 attributes and represents a unique ad for the job.</p>
    
-<p><b>"Check > Explore > Analyze > Visualize > Dashboard > Insights."</b></p>
+	<p><b><u>Check > Explore > Analyze > Visualize > Dashboard > Insights.</u></b></p>
+
+	<p> To proceed with this exploratory data analysis, we start by checking for integrity within the data. What I mean by that is, to check the data for accuracy and completeness, look for missing contents, and ensure suitable data formatting. This helps in maintaining consistency in our insights, allowing clear storytelling with this data. We will also do a routine cleanup of data.</p>
+	
+	<p>In the next steps, we will create a <b>STAR Schema</b> data model with the cleaned data and investigate trends/patterns of job demand in the market. This will be followed by an interpretation of these trends/patterns and their relevance to the organization. Finally, we will create a multi-page dashboard with Power BI to convey the data narrative. So, let’s dive in.</p>
 
 
