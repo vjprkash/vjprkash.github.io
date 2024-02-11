@@ -6,8 +6,6 @@ alt: image-alt
 category: Power BI, MS Excel
 ---
 
-<iframe title="Project_5" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;width:auto;height:auto;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-size:12px;
@@ -38,5 +36,5 @@ category: Power BI, MS Excel
 		<li>Check valiid, error and empty % on top of each columns. Fixing these issues will conclude the data check. Select Close and Apply.</li>		
 	</ol>
 
-
+<iframe title="Project_5" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 
