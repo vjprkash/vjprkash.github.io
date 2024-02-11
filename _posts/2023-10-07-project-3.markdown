@@ -1,4 +1,3 @@
-
 ---
 layout: default
 modal-id: 3
