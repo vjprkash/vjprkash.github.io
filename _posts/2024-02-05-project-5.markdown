@@ -5,7 +5,6 @@ img: personal/images/2jma/icon.png
 alt: image-alt
 category: Power BI, MS Excel
 ---
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;width:auto;height:auto;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-size:12px;
@@ -18,23 +17,26 @@ category: Power BI, MS Excel
 </style>
 
 <div>
-	<p>The project “Job Market Analysis” investigates market trends in demand for jobs in a specific domain. The project follows the Data Analytics pipeline; outlined as part of the learning from <em><a href="https://app.datacamp.com/learn">Datacamp</a></em>. The project uses an Excel Dataset with a single data table. The raw dataset consists of >25000 instances of job postings from the years 2017 to 2021. Each instance consists of 18 attributes and represents a unique ad for the job.</p>
-   
-	<p><b><u>Check > Explore > Analyze > Visualize > Dashboard > Insights.</u></b></p>
-
-	<p> To proceed with this exploratory data analysis, we start by checking the dataset for accuracy, completeness, and integrity. What I mean by that is ensuring that a single row represents a complete data object, a complete instance of the job. We proceed with a routine data cleanup by removing any empty objects and erroneous objects, identifying suitable replacements for blank/null/missing values, ensuring suitable formats for each field, removing duplicates, and so on. This helps in maintaining consistency in our insights, allowing clear storytelling with this data. </p>
+	<p>The project “Job Market Analysis” investigates market trends in demand for jobs in a specific domain. The project follows the Data Analytics Pipeline <i>(Check > Explore > Analyze > Visualize > Dashboard > Insights)</i>; outlined as part of the learning from <em><a href="https://app.datacamp.com/learn">Datacamp</a></em>. The project uses an Excel Dataset with a single data table. The raw dataset consists of >25000 instances of job postings from the years 2017 to 2021. Each instance consists of 18 attributes and represents a unique ad for the job.</p>
+ 	
+	<p><b><u>Check:</u></b></p>
+	<p> To proceed with this exploratory data analysis, we start by checking the dataset for accuracy, completeness, and integrity. What I mean by that is ensuring that a single row represents a complete data object, a complete instance of the job. There are a total of 25115 instances of jobs in the dataset. But it consists of blank/missing fields, errors in columns, and inconsistent data formats. We proceed with a routine data cleanup by removing any empty and erroneous objects, identifying suitable replacements for blank/null/missing values, ensuring suitable formats for each field, removing duplicates, and so on. This helps in maintaining consistency in our insights, allowing clear storytelling with this data.</p>
 	
-	<p>In the next steps, we will create a <b>STAR Schema</b> data model with the cleaned data and investigate trends/patterns of job demand in the market. This will be followed by an interpretation of these trends/patterns and their relevance to the organization. Finally, we will create a multi-page dashboard with Power BI to convey the data narrative. So, let’s dive in.</p>
-
- 	<p><b>Check:</b></p>
-	<ol type="i">
-		<li>There are 25115 instances of jobs in the dataset. The serial number of jobs starts from 0.  We remove 0 and start the numbering from 1.</li>
-		<li>Doing so I found the row number and serial number are the same, which couldn’t be since the first row is a header. Do a difference check of sl. 1 to 25115(excel generated sequence) and the serial number column data. Four values of differences were found: 0,1,2,2.43. Verified and corrected the data.</li>
-		<li>We check for blank data in the Excel dataset. “Home > Find & Select > Goto Special > check blanks > ok”. There are blank fields in the dataset. Make a note of columns with empty fields.</li>
-		<li>Check data formats: date, text, and numeric values. It's in the appropriate formatting.</li>
-		<li>Save and import the data set in the PowerBI desktop. GetData > Text/CSV > Select > OK. Choose Transform Data.</li>
-		<li>Check valiid, error and empty % on top of each columns. Fixing these issues will conclude the data check. Select Close and Apply.</li>		
-	</ol>
+	<p>In the next steps, we will create a STAR Schema data model with the cleaned data and investigate trends/patterns of job demand in the market. This will be followed by an interpretation of these trends/patterns and their relevance to the organization. Finally, we will create a multi-page dashboard with Power BI to convey the data narrative. So, let’s dive in.</p>
+	
+	<p><b><u>Explore:</u></b></p>
+	<p>
+		<ol type="i">
+			<li>Make a note of dependencies/relationships between the fields of data.</li>
+			<li>Identify a unique row identifier, such as <i>Job Posting ID,</i> and how other fields of the dataset depend on it</li>
+			<li>Identify columns that could be grouped to represent a specific aspect of the job instance.</li>
+			<li>Look for hierarchies that could potentially be used to explain data trends, such as <i> Job Posting Date</i>.</li>
+			<li>Segregate the columns with unique identifiers to form smaller tables that could be linked together for presenting summarized data.</li>
+			<li>Data model created for this project is shown below:<br><br>
+				<div><img src="./personal/images/2jma/2_data_model.png" class="img-responsive" /></div>
+			</li>
+		</ol>
+	</p>
 
 <iframe title="Project_5" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 
