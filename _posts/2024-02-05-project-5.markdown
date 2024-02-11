@@ -38,5 +38,26 @@ category: Power BI, MS Excel
 		</ol>
 	</p>
 
-<iframe title="Project_5" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+<p><b><u>Analyze:</u></b></p>
+	<p>There were 25077 unique job listings of 53 distinct job titles in 1826 distinct days between the years 2017-21. These jobs were posted by 4470 different companies of 9 different sizes, across 120 different industries. For EDA(exploratory data analysis), we explore the tables and their data fields in our newly created data model to investigate questions we could ask from these.</p>
+	<p>For example, think about questions such as:
+	<ol type="i">
+			<li>What is the trend of job posting events for any period over the past 5 years?</li>
+			<li>What were the top job positions in demand during this period?</li>
+			<li>What were the top skills in demand?</li>
+			<li>Which locations across the United States had the highest number of jobs in a period? </li>
+			<li>What was the variation in pay trends such as average min and max pay, over the years?</li>
+			<li>What was the share of various levels of job position over time?</li>
+			<li>Which were the top companies hiring?</li>
+			<li>How can a user find jobs posted according to Job Title, Skills, Company, Experience Level, Industry, Posting Date, Location, or position type?</li>
+	</ol></p>
+	<p> These are only some of the few questions we could potentially investigate to see where the job market in this domain is going. There are two ways of doing this analysis; we could either work directly in Power BI and start preparing visualization after grouping questions to investigate in sections. Or do an exploratory analysis with Pivot Tables in Excel, select only the relevant questions to tell a data story, and then proceed with creating visuals with Power BI. I prefer the latter approach.</p>
+	
+	<p><b><u>Visualize:</u></b></p>
+	<p>Once we have completed our analysis, we create appropriate visuals that fit our requirements. To show the trend in jobs posted we use a line area chart with the number of jobs segregated by period, a donut chart for showing the share of various job levels across total job listings in the selection, a treemap for top locations, a multiline chart for top skill trend comparison and so on. The important thing to remember is that the visuals must convey a specific insight. Once we have all our visualizations done, we group them into categories in such as way that conveys a proper data story and create a dashboard for use.</p>
+	
+	<p><b><u>Dashboard:</u></b></p>
+	<p>The dashboard created for this project is shown below. It is an interactive dashboard made with Power BI. Please feel free to explore different visuals used and features such as drill down or filter they have.<br><br>
+	<div><iframe title="Project_5" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true" class="img-responsive"></iframe></div></p>
+</div>
 
