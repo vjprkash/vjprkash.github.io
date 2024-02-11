@@ -1,14 +1,27 @@
 ---
 layout: default
-modal-id: 7
+modal-id: 5
 img: personal/images/2jma/icon.png
 alt: image-alt
-category: Web Development
-description: We are going to do a hands-on project of Customer Churn Analysis for an eCommerce entity in the Telecom industry.The project is built as part of a learning course on Before we proceed any further, let’s first understand what a Customer Churn Rate means. Investopedia defines it as “the rate of attrition at which customers stop doing business with an entity. It is most commonly expressed as the percentage of service subscribers who discontinue their subscriptions within a given time period”. It is an important metric that provides an insight into the company in terms of how competitive they are in the market; possibly why there is an attrition rate in customer base; and by how much. 
+category: Power BI, MS Excel
 ---
-
-
 
 <iframe title="Project_5" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
 
-<p> The project “Job Market Analysis” investigates market trends in demand for jobs in a specific domain. The project follows the Data Analytics pipeline; outlined as part of the learning from Datacamp using available resources. We will be using Excel, Power BI and DAX queries to work on the project. The raw dataset consists of >25000 instances of job-postings from the years 2017 to 2021. Each instance consists of 18 attributes and represents a unique ad for the job.</p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;width:auto;height:auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-size:12px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-size:12px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-99ka{background-color:#D9E1F2;font-weight:bold;text-align:left;vertical-align:middle}
+.responsive {width:auto;height:auto}
+</style>
+
+<div>
+   <p>The project “Job Market Analysis” investigates market trends in demand for jobs in a specific domain. The project follows the Data Analytics pipeline; outlined as part of the learning from <em><a href="https://app.datacamp.com/learn">Datacamp</a></em>. The project uses an Excel Dataset with a single data table. The raw dataset consists of >25000 instances of job-postings from the years 2017 to 2021. Each instance consists of 18 attributes and represents a unique ad for the job.</p>
+   
+<p><b>"Check > Explore > Analyze > Visualize > Dashboard > Insights."</b></p>
+
+
