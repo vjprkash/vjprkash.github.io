@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 4
-img: personal/images/1cca/7_dashboard.png
+img: personal/images/1cca/7_dashboard_small.png
 alt: image-alt
 category: MS Excel
 ---
