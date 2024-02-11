@@ -24,8 +24,9 @@ category: Power BI, MS Excel
    
 	<p><b><u>Check > Explore > Analyze > Visualize > Dashboard > Insights.</u></b></p>
 
-	<p> To proceed with this exploratory data analysis, we start by checking for integrity within the data. What I mean by that is, to check the data for accuracy and completeness, look for missing contents, and ensure suitable data formatting. This helps in maintaining consistency in our insights, allowing clear storytelling with this data. We will also do a routine cleanup of data.</p>
+	<p> To proceed with this exploratory data analysis, we start by checking the dataset for accuracy, completeness, and integrity. What I mean by that is ensuring that a single row represents a complete data object, a complete instance of the job. We proceed with a routine data cleanup by removing any empty objects and erroneous objects, identifying suitable replacements for blank/null/missing values, ensuring suitable formats for each field, removing duplicates, and so on. This helps in maintaining consistency in our insights, allowing clear storytelling with this data. </p>
 	
 	<p>In the next steps, we will create a <b>STAR Schema</b> data model with the cleaned data and investigate trends/patterns of job demand in the market. This will be followed by an interpretation of these trends/patterns and their relevance to the organization. Finally, we will create a multi-page dashboard with Power BI to convey the data narrative. So, let’s dive in.</p>
+
 
 
