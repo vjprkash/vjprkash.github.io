@@ -58,6 +58,8 @@ category: Power BI, MS Excel
 	
 	<p><b><u>Dashboard:</u></b></p>
 	<p>The dashboard created for this project is shown below. It is an interactive dashboard made with Power BI. Please feel free to explore different visuals used and features such as drill down or filter they have.<br><br></p>
-<iframe title="Project_5" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true" class="responsive"></iframe>
+<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+  <iframe width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&amp;embedImagePlaceholder=true&amp;pageName=ReportSection" frameborder="0" allowfullscreen="true" style="position:absolute; top:0; left: 0">
+  </iframe>
 </div>
 
