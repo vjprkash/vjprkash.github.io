@@ -57,7 +57,7 @@ category: Power BI, MS Excel
 	<p>Once we have completed our analysis, we create appropriate visuals that fit our requirements. To show the trend in jobs posted we use a line area chart with the number of jobs segregated by period, a donut chart for showing the share of various job levels across total job listings in the selection, a treemap for top locations, a multiline chart for top skill trend comparison and so on. The important thing to remember is that the visuals must convey a specific insight. Once we have all our visualizations done, we group them into categories in such as way that conveys a proper data story and create a dashboard for use.</p>
 	
 	<p><b><u>Dashboard:</u></b></p>
-	<p>The dashboard created for this project is shown below. It is an interactive dashboard made with Power BI. Please feel free to explore different visuals used and features such as drill down or filter they have.<br><br>
-	<div><iframe title="Project_5" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true" class="img-responsive"></iframe></div></p>
+	<p>The dashboard created for this project is shown below. It is an interactive dashboard made with Power BI. Please feel free to explore different visuals used and features such as drill down or filter they have.<br><br></p>
+<iframe title="Project_5" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true" class="responsive"></iframe>
 </div>
 
