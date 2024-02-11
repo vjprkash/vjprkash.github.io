@@ -116,7 +116,7 @@ category: MS Excel
 	</tbody>
 	</table>
 </div>
-<p>A detailed meaning of each field could be found <a href="https://assets.datacamp.com/production/repositories/6386/datasets/0d84b751e28911f4a2c51b1a38c0100a55d8037e/Metadata%20Sheet%20-%20Customer%20Churn.pdf">here.</a></p>
+
 <p><b>Calculating churn:</b></p>
 <p>We are going to use pivot tables for exploratory analysis. To calculate the churn rate, we create a new calculated column (<i>‘churned'</i>) with a binomial representative of <i>'Yes/No'</i> values in the <i>"Churned"</i> field. Then created a pivot table that provides total customers with the company and total customers considered as churned (sum of newly created label ‘churned'). We also went ahead and found the churn rate as per the formula we saw above and converted the result in % format.</p>
 <div><img src="./personal/images/1cca/2_customerChurn.png" class="img-responsive" /></div>
